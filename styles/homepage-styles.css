@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header and navigation */
+header {
+    background-color: #1e90ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+    border-radius: 3px;
+}
+
+nav button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav a {
+    color: #fff;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #f5f5f5;
+}
+
+.spencer-pic {
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title p {
+    margin: 0px 30px 0px 30px;
+    max-width: 800px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.img-container p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    margin-top: 100%;
+
+}
+.footer div {
+    justify-content: center;
+    align-items: center;
+}

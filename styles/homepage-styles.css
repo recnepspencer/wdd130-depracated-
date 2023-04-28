@@ -82,6 +82,9 @@ nav a:hover {
     border: 1px solid gray;
 }
 
+main {
+    max-width: 840px;
+}
 .main-title {
     display: flex;
     flex-direction: column;
@@ -101,19 +104,45 @@ nav a:hover {
     justify-content: center;
     margin-bottom: 30px;
 }
+.img-container img {
+    width: 200px;
+}
 .img-container p {
     font-size: 14px;
     font-style: italic;
+    max-width: 350px;
+    text-align: center;
+}
+
+aside {
+    margin: 1em;
+    border-top: 1px solid black;
+    padding: 1em;
+    background-color: inherit;
+    color: inherit;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
 }
 
 .footer {
     display: flex;
     bottom: 0;
     justify-content: center;
-    margin-top: 100%;
+    margin-top: 1em;
 
 }
 .footer div {
     justify-content: center;
     align-items: center;
+}
+.footer p {
+    border-top: 1px solid gray;
+    color: rgb(43, 42, 42);
+}
+
+p {
+    padding: 0;
 }

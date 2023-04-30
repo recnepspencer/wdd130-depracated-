@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+:root {
+  --primary-color: #EE447A;
+  --secondary-color: #FE8420;
+  --accent-color: #F5F4F6;
+  --additional-accent-color: #606D5F;
+  --heading-font: 'Space Mono', monospace;
+  --paragraph-font: 'Space Mono', monospace;
+  --nav-bg-color: #EE447A;
+  --nav-link-color: #F5F4F6;
+  --nav-hover-link-color: #FE8420;
+  --nav-hover-bg-color: #606D5F;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 10px;
+  background-color: var(--accent-color);
+}
+
+p {
+  padding: 10px 0;
+}
+
+nav {
+  background-color: var(--nav-bg-color);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-bg-color);
+}

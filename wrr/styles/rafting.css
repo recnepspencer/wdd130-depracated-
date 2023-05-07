@@ -12,6 +12,9 @@
     --nav-hover-link-color: #FE8420;
     --nav-hover-bg-color: #606D5F;
   }
+body {
+    min-width: 900px;
+}
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -62,6 +65,7 @@
     display: flex;
     width: 80%;
     background-color: rgba(185, 192, 189, 0.7);
+    max-height: 150px;
 }
 
 .motto {

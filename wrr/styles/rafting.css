@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+:root {
+    --primary-color: #EE447A;
+    --secondary-color: #2041fe;
+    --accent-color: #F5F4F6;
+    --additional-accent-color: #0b120b;
+    --heading-font: 'Space Mono', monospace;
+    --paragraph-font: 'Space Mono', monospace;
+    --nav-bg-color: #EE447A;
+    --nav-link-color: #F5F4F6;
+    --nav-hover-link-color: #FE8420;
+    --nav-hover-bg-color: #606D5F;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Add styles for paragraphs */
+  p {
+    font-family: var(--paragraph-font);
+    color: var(--additional-accent-color);
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+.hero {
+    position: relative;
+}
+.hero-title {
+    background-color: rgba(30, 31, 33, 0.8);
+    width: 100%;
+    display: block;
+    font-weight: bold;
+}
+
+.hero-image {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.position-absolute {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.happy-client-container {
+    display: flex;
+    width: 80%;
+    background-color: rgba(185, 192, 189, 0.7);
+}
+
+.motto {
+    padding: 0px 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.happy-client {
+    float: right;
+    height: auto;
+    max-height: 150px;
+    margin-left: auto;
+}
